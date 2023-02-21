@@ -4,7 +4,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 
 const app = express();
-const PORT = 3000 || process.env.PORT;
+const PORT = 3060 || process.env.PORT;
 const uri = process.env.MONGODB_URI;
 
 app.use(
